@@ -5,5 +5,5 @@ VectorDefense is a model- and attack-agnostic transformation that impedes the ef
 
 ![VectorDefense Concept](/concept.png)
 
-VectorDefense can be viewed as a stepping stone towards decomposing images into compact, interpretable elements to solve the AX problem.
+VectorDefense can be viewed as a stepping stone towards decomposing images into compact, interpretable elements to solve the AX problem. For details, read our [paper](/link)
 
