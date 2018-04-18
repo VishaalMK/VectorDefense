@@ -5,12 +5,12 @@ VectorDefense is a model- and attack-agnostic transformation that impedes the ef
 
 ![VectorDefense Concept](/concept.png)
 
-VectorDefense can be viewed as a stepping stone towards decomposing images into compact, interpretable elements to solve the AX problem. For details, read our [paper](/link)
+VectorDefense can be viewed as a stepping stone towards decomposing images into compact, interpretable elements to solve the adversarial example (AX) problem. For details, read our [paper](/link)
 
 ## Usage
 
 The `.ipynb` files walk through
-* Crafting adversarial examples (AXs) using Projected Gradient Descent (PGD) ([Madry et al. 2018](https://arxiv.org/abs/1706.06083))
+* Crafting AXs using Projected Gradient Descent (PGD) ([Madry et al. 2018](https://arxiv.org/abs/1706.06083))
 * Purifying the AXs using the respective hand-designed transformations (viz. VectorDefense, Bit-depth reduction ([Xu et al. 2018](https://arxiv.org/abs/1704.01155)) and Image Quilting ([Guo et al. (2018)](https://openreview.net/forum?id=SyJ7ClWCb)))
 * Subsequently performing white-box attack on these input transformations using Backward Pass Differentiable Approximation (BPDA) ([Athalye et al. 2018](https://arxiv.org/abs/1802.00420))
 
