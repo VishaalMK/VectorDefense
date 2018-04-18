@@ -15,11 +15,11 @@ The `.ipynb` files walk through
 * Subsequently performing white-box attack on these input transformations using Backward Pass Differentiable Approximation (BPDA) ([Athalye et al. 2018](https://arxiv.org/abs/1802.00420))
 
 ### VectorDefense
-1. Create the folders `adv_images/ `, `vectorize/` and `rasterize/` to allow VectorDefense to transform the input AXs
-1. `mnist_defend.sh` is the script that vectorizes and subsequently raterizes the input AXs
+* Create the folders `adv_images/ `, `vectorize/` and `rasterize/` to allow VectorDefense to transform the input AXs
+* `mnist_defend.sh` is the script that vectorizes and subsequently raterizes the input AXs
 
 ### Image Quilting
-1. The `data/` folder contains the quilting database for MNIST
+* The `data/` folder contains the quilting database for MNIST
 
 
 
