@@ -2,4 +2,6 @@
 
 VectorDefense is a model- and attack-agnostic transformation that impedes the effect of adversarial perturbations.
 
-![](concept.pdf)
+<p align="center">
+    <img src="concpet.pdf">
+</p>
