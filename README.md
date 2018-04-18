@@ -14,6 +14,10 @@ The `.ipynb` files walk through
 * Purifying the AXs using the respective hand-designed transformations (viz. VectorDefense, Bit-depth reduction ([Xu et al. 2018](https://arxiv.org/abs/1704.01155)) and Image Quilting [Guo et al. (2018)](https://openreview.net/forum?id=SyJ7ClWCb))
 * Subsequently performing white-box attack on these input transformations using Backward Pass Differentiable Approximation (BPDA) ([Athalye et al. 2018](https://arxiv.org/abs/1802.00420))
 
+** VectorDefense**
+1. Create the folders `adv_images/ `, `vectorize/` and `rasterize/` to allow VectorDefense transform the input AXs
+1. `mnist_defend.sh` is the script that vectorizes and subsequently raterizes the input AXs
+
 
 
 
