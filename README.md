@@ -1,3 +1,5 @@
 # VecotrDefense: Vectorization as a Defense to Adversarial Examples
 
-This repository contains source code necessary to reproduce some of the main results in the paper:
+VectorDefense is a model- and attack-agnostic transformation that impedes the effect of adversarial perturbations.
+
+![](concept.pdf)
