@@ -10,9 +10,10 @@ VectorDefense can be viewed as a stepping stone towards decomposing images into 
 ## Usage
 
 The `.ipynb` files walk through
-* Crafting adversarial examples (AXs) using Projected Gradient Descent (PGD)
-* Purifying the AXs usign the respective hand-designed transformations (viz. VectorDefense, bit-depth reduction and image quilting)
+* Crafting adversarial examples (AXs) using Projected Gradient Descent (PGD) ([Madry et al. 2018](https://arxiv.org/abs/1706.06083))
+* Purifying the AXs using the respective hand-designed transformations (viz. VectorDefense, bit-depth reduction ([Xu et al. 2018](https://arxiv.org/abs/1704.01155)) and image quilting [Guo et al. (2018)](https://openreview.net/forum?id=SyJ7ClWCb))
 * Subsequently performing white-box attack on these input transformations using Backward Pass Differentiable Approximation (BPDA) ([Athalye et al. 2018](https://arxiv.org/abs/1802.00420))
+
 
 
 
