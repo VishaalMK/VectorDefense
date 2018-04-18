@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/vishaal/workspace/obfuscated-gradients/inputtransformations/models/mnist/mnist.ckpt"
+all_model_checkpoint_paths: "/home/vishaal/workspace/obfuscated-gradients/inputtransformations/models/mnist/mnist.ckpt"
