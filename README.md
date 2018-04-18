@@ -21,6 +21,12 @@ The `.ipynb` files walk through
 ### Image Quilting
 * The `data/` folder contains the quilting database for MNIST
 
+### Dependencies
+* Install [Potrace](http://potrace.sourceforge.net/#downloading) and [Inkscape](https://inkscape.org/en/release/0.92.3/) 
+* TensorFlow
+* Keras
+
+
 
 
 
