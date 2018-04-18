@@ -24,7 +24,7 @@ from cleverhans.utils_keras import KerasModelWrapper, conv_2d
 
 FLAGS = flags.FLAGS
 
-model_path = "/home/vishaal/workspace/obfuscated-gradients/inputtransformations/models/mnist"
+model_path = "models/mnist"
 
 def cnn_model(logits=False, input_ph=None, img_rows=28, img_cols=28,
               channels=1, nb_filters=64, nb_classes=10):
