@@ -26,6 +26,14 @@ The `.ipynb` files walk through
 * TensorFlow
 * Keras
 
+**If you use this software in an academic article, please cite:**
+
+    @article{vishaal2018vectordefense,
+      title={VectorDefense: Vectorization as a Defense to Adversarial Examples},
+      author={Munusamy Kabilan, Vishaal and  Morris, Brandon and Nguyen, Anh},
+      note={arXiv preprint arXiv:1804.08529},
+      year={2018}
+    }
 
 
 
