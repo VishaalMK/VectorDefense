@@ -2,10 +2,18 @@
 
 VectorDefense is a model- and attack-agnostic transformation that impedes the effect of adversarial perturbations. The main idea is that VectorDefense transforms each input bitmap image into a *vector graphic* image (SVG format) - which is composed of simple geometric primitives (e.g oval and stroke) - via [Potrace](http://potrace.sourceforge.net/potrace.pdf), and then rasterizes it back into the bitmap form before feeding it to the classifier.
 
-
 ![VectorDefense Concept](/concept.png)
 
 VectorDefense can be viewed as a stepping stone towards decomposing images into compact, interpretable elements to solve the adversarial example (AX) problem. For details, read our [paper](/link)
+
+**If you use this software in an academic article, please cite:**
+
+    @article{vishaal2018vectordefense,
+      title={VectorDefense: Vectorization as a Defense to Adversarial Examples},
+      author={Munusamy Kabilan, Vishaal and  Morris, Brandon and Nguyen, Anh},
+      note={arXiv preprint arXiv:1804.08529},
+      year={2018}
+    }
 
 ## Usage
 
@@ -26,14 +34,6 @@ The `.ipynb` files walk through
 * TensorFlow
 * Keras
 
-**If you use this software in an academic article, please cite:**
-
-    @article{vishaal2018vectordefense,
-      title={VectorDefense: Vectorization as a Defense to Adversarial Examples},
-      author={Munusamy Kabilan, Vishaal and  Morris, Brandon and Nguyen, Anh},
-      note={arXiv preprint arXiv:1804.08529},
-      year={2018}
-    }
 
 
 
